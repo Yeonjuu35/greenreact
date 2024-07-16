@@ -1,0 +1,150 @@
+// 컬러
+$green : #74BF31;
+$orange : #FF8100;
+$gray : #333333;
+$lightgray : #848484;
+$black : #000000;
+$white : #ffffff;
+
+
+// 그리드 가이드
+.sectionBlank {
+    margin-bottom: 200px;
+}
+.contentBlank {
+    margin-bottom: 30px;
+}
+.imgBlank {
+    padding-right: 20px;
+}
+.issueBlank {
+    padding-right: 12px;
+}
+.supportBlank {
+    padding-right: 40px;
+}
+
+
+// 폰트
+// 전체 공용 폰트
+body { 
+    font-family: 'NotoSansKR';
+    letter-spacing: -0.5rem;
+}
+
+// 커스텀
+// 메인 스와이퍼 한정
+.mainSwiperTitle {
+    font-family: 'josefinBold';
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 12rem;
+    color: $white;
+}
+.mainSwiperSub {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 5rem;
+    color: $white;
+}
+
+// 메인컨텐츠 서브타이틀 한정
+.maincontentsub {
+    font-family: 'josefinLight';
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 5rem;
+}
+
+// 행간
+.lineHeight03 {
+    line-height: -0.3rem;
+}
+.lineHeight125 {
+    line-height: 1.25rem;
+}
+.lineHeight15 {
+    line-height: 1.5rem;
+}
+
+// 폰트 두께
+.fontThin {
+    font-weight: 100;
+}
+.fontLight {
+    font-weight: 300;
+}
+.fontRegular {
+    font-weight: 400;
+}
+.fontMedium {
+    font-weight: 500;
+}
+.fontSemibold {
+    font-weight: 600;
+}
+.fontBold {
+    font-weight: 700;
+}
+
+// 폰트 사이즈
+.font10 {
+    font-size: 10px;
+}
+.font12 {
+    font-size: 12px;
+}
+.font13 {
+    font-size: 13px;
+}
+.font14 {
+    font-size: 14px;
+}
+.font15 {
+    font-size: 15px;
+}
+.font16 {
+    font-size: 16px;
+}
+.font17 {
+    font-size: 17px;
+}
+.font18 {
+    font-size: 18px;
+}
+.font20 {
+    font-size: 20px;
+}
+.font22 {
+    font-size: 22px;
+}
+.font24 {
+    font-size: 24px;
+}
+.font35 {
+    font-size: 35px;
+}
+
+// 폰트 컬러
+.fontwhite {
+    color: $white;
+}
+.fontBlack {
+    color: $black;
+}
+.fontGray {
+    color: $gray;
+}
+.fontLightgray {
+    color: $lightgray;
+}
+.fontGreen {
+    color: $green;
+}
+
+
+// 컨테이너 - width(1824px)
+.mainContainer {
+    max-width: 1824px;
+    height: auto;
+}
