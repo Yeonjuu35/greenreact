@@ -9,6 +9,8 @@ import Newslatter from './component/Newslatter'
 import Footer from './component/nav/Footer'
 import QuickButton from './component/QuickButton'
 
+import { Route, Router } from 'react-router-dom'
+
 function App() {
   return (
     <>
