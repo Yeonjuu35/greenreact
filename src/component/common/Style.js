@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-// Btn
+// 버튼
 export const Button = styled.button`
     background : ${props => props.newslatter ? '#74BF31' : '#FF8100' }
     font-size : ${props => props.support ? '20px' : '16px'}

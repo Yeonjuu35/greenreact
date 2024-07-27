@@ -6,6 +6,25 @@ $lightgray : #848484;
 $black : #000000;
 $white : #ffffff;
 
+.fontwhite {
+    color: $white;
+}
+.fontBlack {
+    color: $black;
+}
+.fontGray {
+    color: $gray;
+}
+.fontLightgray {
+    color: $lightgray;
+}
+.fontGreen {
+    color: $green;
+}
+.fontOrange {
+    color : $orange;
+}
+
 
 // 그리드 가이드
 .sectionBlank {
@@ -24,47 +43,17 @@ $white : #ffffff;
     padding-right: 40px;
 }
 
+// 컨테이너 - width(1824px)
+.mainContainer {
+    max-width: 1824px;
+    height: auto;
+}
 
 // 폰트
 // 전체 공용 폰트
 body { 
     font-family: 'NotoSansKR';
     letter-spacing: -0.5rem;
-}
-
-// 커스텀
-// 메인 스와이퍼 한정
-.mainSwiperTitle {
-    font-family: 'josefinBold';
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 12rem;
-    color: $white;
-}
-.mainSwiperSub {
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 5rem;
-    color: $white;
-}
-
-// 메인컨텐츠 서브타이틀 한정
-.maincontentsub {
-    font-family: 'josefinLight';
-    font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 5rem;
-}
-
-// 행간
-.lineHeight03 {
-    line-height: -0.3rem;
-}
-.lineHeight125 {
-    line-height: 1.25rem;
-}
-.lineHeight15 {
-    line-height: 1.5rem;
 }
 
 // 폰트 두께
@@ -87,64 +76,169 @@ body {
     font-weight: 700;
 }
 
-// 폰트 사이즈
-.font10 {
-    font-size: 10px;
-}
-.font12 {
-    font-size: 12px;
-}
-.font13 {
-    font-size: 13px;
-}
-.font14 {
-    font-size: 14px;
-}
-.font15 {
-    font-size: 15px;
-}
-.font16 {
-    font-size: 16px;
-}
-.font17 {
-    font-size: 17px;
-}
-.font18 {
+// 커스텀
+// 헤더
+.naviMenu {
     font-size: 18px;
-}
-.font20 {
-    font-size: 20px;
-}
-.font22 {
-    font-size: 22px;
-}
-.font24 {
-    font-size: 24px;
-}
-.font35 {
-    font-size: 35px;
-}
-
-// 폰트 컬러
-.fontwhite {
-    color: $white;
-}
-.fontBlack {
-    color: $black;
-}
-.fontGray {
     color: $gray;
+    font-weight: 500;
 }
-.fontLightgray {
-    color: $lightgray;
-}
-.fontGreen {
-    color: $green;
+.naviSubmenu {
+    font-size: 15px;
+    color: $gray;
+    font-weight: 400;
 }
 
+// 메인 스와이퍼
+.mainSwiperTitle {
+    font-family: 'JosefinSans';
+    font-size: 35px;
+    color: $white;
+    font-weight: 700;
+    letter-spacing: 12rem;
+}
+.mainSwiperSub {
+    font-size: 18px;
+    color: $white;
+    font-weight: 600;
+    letter-spacing: 5rem;
+}
 
-// 컨테이너 - width(1824px)
-.mainContainer {
-    max-width: 1824px;
-    height: auto;
+// 핵심가치 리포트
+.valueReportTitle{
+    font-size: 34px;
+    font-weight: 600;
+}
+.valueReportSub {
+    font-family: 'JosefinSans';
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 5rem;
+}
+.valueReportText {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.valueReportIcon {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.125rem;
+}
+
+// 공용 타이틀, 리드카피, 스와이퍼 텍스트
+.commonTitle {
+    font-family: 'JosefinSans';
+    font-size: 35px;
+    color: $gray;
+    font-weight: 600;
+    letter-spacing: -0.8rem;
+}
+.commonLeadcopy {
+    font-size: 16px;
+    color: $gray;
+    font-weight: 400;
+}
+.commonSwiperTitle {
+    font-size: 24px;
+    color: $white;
+    font-weight: 500;
+}
+.commonSwiperSub {
+    font-family: 'JosefinSans';
+    font-size: 15px;
+    color: $white;
+    font-weight: 300;
+}
+.commonSwiperText {
+    font-size: 14px;
+    color: $white;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+// 이슈
+.issueNew {
+    font-size: 12px;
+    color: $white;
+    font-weight: 600;
+}
+.issueTitle {
+    font-size: 12px;
+    color: $white;
+    font-weight: 600;
+    line-height: 1rem;
+}
+.issueDate {
+    font-size: 8px;
+    color: $white;
+    font-weight: 300;
+}
+
+// 캠페인
+.campaignTitle {
+    font-family: 'JosefinSans';
+    font-size: 65px;
+    color: $white;
+    font-weight: 500;
+    letter-spacing: -0.8rem;
+    line-height: 4rem;
+}
+.campaignSub {
+    font-size: 24px;
+    color: $white;
+    font-weight: 600;
+    letter-spacing: -0.9rem;
+}
+.campaignText {
+    font-size: 17px;
+    color: $white;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+// 후원
+.supportTitle {
+    font-size: 35px;
+    color: $white;
+    font-weight: 600;
+    line-height: 1.6rem;
+}
+.supportText {
+    font-size: 16px;
+    color: $white;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.supportBox {
+    font-size: 20px;
+    font-weight: 500;
+}
+.supportBoxText {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+// 뉴스레터
+.newsletterTitle {
+    font-size: 22px;
+    color: $white;
+    font-weight: 600;
+}
+.newsletterText {
+    font-size: 16px;
+    color: #8E8E8E;
+    font-weight: 100;
+}
+
+// 풋터
+.footerMenu {
+    font-size: 16px;
+    color: $white;
+    font-weight: 500;
+}
+.footerText {
+    font-size: 16px;
+    color: $white;
+    font-weight: 100;
 }
